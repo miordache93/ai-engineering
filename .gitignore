@@ -1,4 +1,5 @@
 .env.*
+.env.development
 .yarn/unplugged
 
 ./node_modules
