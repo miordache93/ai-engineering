@@ -1,0 +1,12 @@
+.env.*
+.yarn/unplugged
+
+./node_modules
+./dist
+./build
+./coverage
+./logs
+./temp
+./cache
+./data
+node_modules

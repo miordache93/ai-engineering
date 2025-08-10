@@ -96,12 +96,12 @@ Let's build a production-grade project structure:
 
 ```bash
 # Create the complete project structure
-mkdir -p ~/agents-lab/{src,tests,docs,scripts,config}
-mkdir -p ~/agents-lab/src/{agents,tools,utils,types,middleware,services}
-mkdir -p ~/agents-lab/src/{rag,graph,eval,interfaces,models}
-mkdir -p ~/agents-lab/tests/{unit,integration,e2e}
-mkdir -p ~/agents-lab/data/{knowledge,cache,logs}
-mkdir -p ~/agents-lab/config/{environments,schemas}
+mkdir -p ./{src,tests,docs,scripts,config}
+mkdir -p ./src/{agents,tools,utils,types,middleware,services}
+mkdir -p ./src/{rag,graph,eval,interfaces,models}
+mkdir -p ./tests/{unit,integration,e2e}
+mkdir -p ./data/{knowledge,cache,logs}
+mkdir -p ./config/{environments,schemas}
 ```
 
 ### 1.2 Complete Package Configuration
